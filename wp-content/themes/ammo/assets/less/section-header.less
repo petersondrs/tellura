@@ -136,17 +136,19 @@
 					text-align: left;
 					padding-right: @menu-padding-horizontal;
 					padding-left: @menu-padding-horizontal;
-					border-left: 1px solid darken(@header-background, 10%);
+					border-left: 1px solid @brand-primary;
+					margin-top: 3px;
 
 					&:last-child {
-						border-right: 1px solid darken(@header-background, 10%);
+						border-right: none;
+						height: 30px;
 					}
 					
 					a {
 						.transition(all .2s ease-in-out);
 						padding: 0;
 						font-size: @menu-font-size;
-						line-height: @header-height;
+						line-height: @header-height / 2;
 						.text-color(@header-background, @menu-link-color);
 						
 						.menu-icon {

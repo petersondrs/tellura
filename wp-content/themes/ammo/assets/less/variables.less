@@ -7,7 +7,8 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-@brand-primary:         #63BC0D;
+@brand-primary:         #abc400;
+@gray:                  #4b4b4b;
 
 
 //== Scaffolding
@@ -17,7 +18,7 @@
 //** Background color for `<body>`.
 @body-bg:               #fff;
 //** Global text color on `<body>`.
-@text-color:            #788991;
+@text-color:            #323233;
 
 //** Global textual link color.
 @link-color:            @brand-primary;
@@ -28,12 +29,12 @@
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-@base-font-body:        "Roboto Condensed";
+@base-font-body:        "Tahoma";
 @base-font-heading:     "Oswald";
-@base-font-menu:        "Roboto Condensed";
+@base-font-menu:        "Tahoma";
 
-@font-family-base:        @base-font-body, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@headings-font-family:	  @base-font-heading, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+@font-family-base:        @base-font-body, Tahoma, Helvetica, Arial, sans-serif;
+@headings-font-family:	  @base-font-heading, Tahoma, Helvetica, Arial, sans-serif;;
 
 @font-weight-base:		  300;
 
@@ -66,7 +67,7 @@
 
 // Top Bar
 @top-bar-height:				40px;
-@top-bar-background:			#fff;        // * Must provide a value
+@top-bar-background:			@brand-primary;        // * Must provide a value
 @top-bar-text-color:            '';          // * optional
 @top-bar-link-color:            '';          // * optional
 @top-bar-link-hover:            '';          // * optional
@@ -76,7 +77,7 @@
 
 //	Header
 @header-height:					60px;
-@header-background:				#fff;
+@header-background:				@gray;
 @header-transparent-opacity:	80%;
 @logo-height:					35px;
 @logo-width:					116px;
