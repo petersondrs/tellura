@@ -54,6 +54,7 @@ if ( isset($smof_data['footer']) && $smof_data['footer'] == 1) {
 ?>
 	<!-- Start Footer
 	================================================== -->
+<!--
 	<footer id="footer" class="section">
 	
 		<div class="container">
@@ -70,6 +71,23 @@ if ( isset($smof_data['footer']) && $smof_data['footer'] == 1) {
 		</div>
 	
 	</footer>
+-->
+
+<footer id="footer" class="section">
+	
+		<div class="container">
+			<div class="row">
+			
+                <?php $my_query = new WP_Query('p=1145'); ?>
+			<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+				<?php the_content(); ?>					
+		<?php endwhile; ?>
+
+			</div>
+		</div>
+	
+	</footer>
+
 	<!-- ================================================== 
 	End Footer -->
 <?php } ?>
@@ -80,14 +98,12 @@ if ( isset($smof_data['footer']) && $smof_data['footer'] == 1) {
 	<div class="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
                     <div class="top-bar-left">
-					   <?php tt_bar_content($smof_data['sub_footer_left'], true); ?>
-                    </div>
-				</div>
-				<div class="col-md-6">
-                    <div class="top-bar-right text-right">
-					   <?php tt_bar_content($smof_data['sub_footer_right'], true); ?>
+					   <?php $my_query = new WP_Query('p=1129'); ?>
+			<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+				<?php the_content(); ?>					
+		<?php endwhile; ?>
                     </div>
 				</div>
 			</div>
@@ -110,6 +126,10 @@ if ( isset($smof_data['footer']) && $smof_data['footer'] == 1) {
     <![endif]-->
 
     <?php wp_footer(); ?>
+    
+
+	    
+
 
 
 </body>

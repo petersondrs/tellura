@@ -1,0 +1,38 @@
+.blox-counter {
+  text-align: center;
+}
+.blox-counter .counter-top {
+  font-size: 36px;
+  display: block;
+}
+.blox-counter .counter-top .counter-icon {
+  font-size: 80%;
+}
+.blox-counter .counter-text {
+  display: block;
+}
+.blox-counter.counter-scroll .cl {
+  position: relative;
+  height: 42px;
+  display: inline-block;
+}
+.blox-counter.counter-scroll .cl .numeric {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 42px;
+  top: 10px;
+  min-width: .6em;
+}
+.blox-counter.counter-scroll .cl .numeric > span {
+  opacity: 0;
+  height: 42px;
+}
+.blox-counter.counter-scroll .cl .numeric ul {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}

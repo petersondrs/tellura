@@ -1,13 +1,26 @@
 //	FOOTER
 #footer {
 	background-color: @footer-background;
-	padding: @footer-padding 0;
+	padding: 20px 0 60px 0;
 	color: @footer-text-color;
 	font-size: @footer-font-size;
+	border-top: 13px @brand-primary solid;
 	
 	h1, h2, h3, h4, h5, h6,
 	.h1, .h2, .h3, .h4, .h5, .h6 {
 		.heading-color(@footer-background, @footer-heading-color);	
+	}
+	
+	.alignleft {
+		margin: -3px 10px 0px 0;
+	}
+	
+	.icon-pin-footer {
+		margin-top: -10px;
+		
+		.alignleft {
+			margin-top: 5px;
+		}
 	}
 	
 	.footer_widget_container {
@@ -45,6 +58,7 @@
 	padding: @footer-bar-padding 0;
 	color: @footer-bar-text-color;
 	font-size: @footer-bar-font-size;
+	margin-top: 5px;
 	
 	a {
 	    color: @footer-bar-link-color;

@@ -4328,10 +4328,9 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 }
 #footer {
   background-color: #252525;
-  padding: 20px 0 60px 0;
+  padding: 80px 0;
   color: #ffffff;
   font-size: 13px;
-  border-top: 13px #abc400 solid;
 }
 #footer h1,
 #footer h2,
@@ -4346,15 +4345,6 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 #footer .h5,
 #footer .h6 {
   color: #ffffff;
-}
-#footer .alignleft {
-  margin: -3px 10px 0px 0;
-}
-#footer .icon-pin-footer {
-  margin-top: -10px;
-}
-#footer .icon-pin-footer .alignleft {
-  margin-top: 5px;
 }
 #footer .footer_widget_container .widget:last-child {
   margin-bottom: 0;
@@ -4377,7 +4367,6 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
   padding: 0px 0;
   color: #585858;
   font-size: 12px;
-  margin-top: 5px;
 }
 .sub-footer a {
   color: #abc400;
@@ -5142,4 +5131,3 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
     display: none;
   }
 }
-/*# sourceMappingURL=ammo.css.map */
