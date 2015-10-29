@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", Tahoma, Helvetica, Arial, sans-serif;
+  font-family: "Tahoma", Tahoma, Helvetica, Arial, sans-serif;
   font-weight: 100;
   line-height: 1.1;
   color: #252526;
@@ -3656,6 +3656,7 @@ h3.related-posts:after,
   font-size: 13px;
   line-height: 30px;
   color: #ffffff;
+  border-bottom: 3px solid transparent;
 }
 .header-style .main-menu .navmenu-cell .navbar-nav li a .menu-icon {
   margin-right: .5em;
@@ -4748,6 +4749,89 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 }
 .page-id-7 .section.primary {
   background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-historia.jpg) repeat;
+}
+.page-id-7 .content {
+  padding: 0px 0;
+}
+.history-text-box-00 {
+  margin-bottom: 0px;
+}
+.history-text-box-01 {
+  background: white;
+  padding: 50px 80px;
+}
+.history-text-box-02 {
+  background: #abc400;
+  color: white;
+  padding-bottom: 0px;
+}
+.history-text-box-02 .text {
+  padding: 20px 0 0px 80px;
+  float: left;
+  max-width: 59%;
+}
+.history-text-box-03,
+.history-text-box-05 {
+  padding-bottom: 0px;
+}
+.history-text-box-04 {
+  background: #4b4b4b;
+  color: white;
+  padding: 50px 80px;
+}
+.page-id-16 .section.primary {
+  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-contato-cachaca-tellura.jpg) repeat;
+}
+.contato-h1 {
+  text-align: left;
+}
+.contato-h1 h1:after,
+.contato-h1 h1:before {
+  display: none;
+}
+.contato-mapa-formulario {
+  box-shadow: 0px 0px 10px #000;
+  border-top: solid 28px #abc400;
+  border-bottom: solid 15px #4b4b4b;
+  background: #4b4b4b;
+}
+.contato-mapa-formulario .section-normal {
+  padding-bottom: 0px;
+}
+.contato-mapa-formulario .mapa {
+  height: 440px;
+}
+.contato-mapa-formulario .mapa iframe {
+  width: 100%;
+  height: 440px;
+}
+.contato-mapa-formulario .div-formulario {
+  height: 440px;
+}
+.contato-mapa-formulario .formulario {
+  padding: 40px 58px 0px 40px;
+}
+.contato-mapa-formulario .formulario label {
+  color: white;
+}
+.contato-mapa-formulario .formulario .center {
+  text-align: center;
+}
+.contato-mapa-formulario .formulario .wpcf7-submit {
+  text-align: center;
+  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-botao.png) no-repeat center center;
+  width: 121px;
+  height: 31px;
+}
+.page-id-12 .section.primary {
+  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-acontecimentos-cachaca-tellura.jpg) repeat;
+}
+.noticias-h1 {
+  border-bottom: solid 25px #abc400;
+  padding-bottom: 0px;
+}
+.noticias-h1 .blox-element-text {
+  font-size: 70px;
 }
 @media only screen and (max-width: 991px) {
   .primary.section .col-md-9.pull-right {
