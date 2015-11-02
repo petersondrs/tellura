@@ -4747,8 +4747,46 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 .single-portfolio .content .single-content .entry-media {
   margin-bottom: 60px;
 }
+.home {
+  background: url(/wp-content/uploads/2015/10/bg-index-cachaca-tellura.jpg) repeat-y center 0px;
+}
+.maior-18 {
+  width: 620px;
+  height: 300px;
+  position: relative;
+  left: 50%;
+  margin-left: -310px;
+  margin-top: 25%;
+  border: none;
+  text-align: center;
+}
+.maior-18 .bg-maior-18 {
+  background: #abc400;
+  width: 620px;
+  height: 300px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px #6c6c6c;
+}
+.maior-18 .conteudo {
+  position: relative;
+  padding: 20px;
+}
+.maior-18 .conteudo h3 {
+  color: white;
+  margin-top: 20px;
+}
+.maior-18 .conteudo a {
+  background: #4b4b4b;
+  padding: 10px 20px;
+  color: white;
+  position: relative;
+  top: 15px;
+  margin: 15px;
+}
 .page-id-7 .section.primary {
-  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-historia.jpg) repeat;
+  background: url(/wp-content/uploads/2015/10/bg-historia.jpg) repeat;
 }
 .page-id-7 .content {
   padding: 0px 0;
@@ -4780,7 +4818,7 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
   padding: 50px 80px;
 }
 .page-id-16 .section.primary {
-  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-contato-cachaca-tellura.jpg) repeat;
+  background: url(/wp-content/uploads/2015/10/bg-contato-cachaca-tellura.jpg) repeat;
 }
 .contato-h1 {
   text-align: left;
@@ -4819,12 +4857,12 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 }
 .contato-mapa-formulario .formulario .wpcf7-submit {
   text-align: center;
-  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-botao.png) no-repeat center center;
+  background: url(/wp-content/uploads/2015/10/bg-botao.png) no-repeat center center;
   width: 121px;
   height: 31px;
 }
 .page-id-12 .section.primary {
-  background: url(http://tellura:8888/wp-content/uploads/2015/10/bg-acontecimentos-cachaca-tellura.jpg) repeat;
+  background: url(/wp-content/uploads/2015/10/bg-acontecimentos-cachaca-tellura.jpg) repeat;
 }
 .noticias-h1 {
   border-bottom: solid 25px #abc400;
@@ -4832,6 +4870,27 @@ body.slidemenu-push.smenu-push-toLeft #smenu-overlay {
 }
 .noticias-h1 .blox-element-text {
   font-size: 70px;
+}
+.page-id-10 .section.primary {
+  background: url(/wp-content/uploads/2015/11/bg-produto-cachaca-tellura.jpg) repeat-y center 0px;
+}
+.page-id-10 .caixa-texto-produto {
+  margin-top: 160px;
+  margin-bottom: 30%;
+  box-shadow: 0px 0px 10px #000;
+}
+.page-id-10 .caixa-texto-produto .bg-titulo {
+  background: url(/wp-content/uploads/2015/11/bg-logo-produto-cachaca-tellura.png) repeat-x center 0px;
+  height: 130px;
+}
+.page-id-10 .caixa-texto-produto .bg-titulo img {
+  position: relative;
+  top: 30px;
+}
+.page-id-10 .caixa-texto-produto .texto {
+  background: url(/wp-content/uploads/2015/11/bg-texto-produto-cachaca-tellura1.png) repeat center 0px;
+  color: white;
+  padding: 20px;
 }
 @media only screen and (max-width: 991px) {
   .primary.section .col-md-9.pull-right {

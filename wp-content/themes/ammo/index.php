@@ -1,65 +1,18 @@
-<?php
-	get_header();
-?>
 
-<!-- Start Content
-================================================== -->
-<section class="primary section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="row">
-					<div class="col-md-9">
-						<div class="content">
-							<div class="row">
-								<div class="col-md-12">
-									<?php
-									global $layout_sidebar;
-									$layout_sidebar = 'with-sidebar';
-		                            if (have_posts()) :
-		                            	$loop_args = array(
-							                            'overlay' => 'none',
-							                            'excerpt' => 'both',
-							                            'readmore' => __('Read more', 'themeton'),
-							                            'grid' => '1',
-							                            'element_style' => 'default'
-						                            );
-		                            	$result = '';
-		                                while (have_posts()) : the_post();
-		                                	ob_start();
-		                                    blox_loop_regular($loop_args);
-		                                    $result .= ob_get_contents();
-		                                    ob_end_clean();
-		                                endwhile;
 
-		                                $pager_html = '';
-		                                ob_start();
-							            themeton_pager();
-							            $pager_html .= ob_get_contents();
-							            ob_end_clean();
+<? include (TEMPLATEPATH.'/headerIndex.php'); ?>
 
-		                                echo '<div class="blox-element blog medium-loop">
-						                        <div class="row">
-						                            <div class="col-md-12">'.$result.'</div>
-						                        </div>
-						                        '. $pager_html .'
-						                      </div>';
-		                            endif;
-		                            ?>
-								</div>
-							</div>
-						</div>
-					</div>
-					<?php get_sidebar(); ?>
-				</div>
-			</div>
+<body <?php body_class($body_classes); ?>>
+	<div class="maior-18">
+		<div class="bg-maior-18"></div>
+			<div class="conteudo">
+			 <?php $my_query = new WP_Query('p=1236'); ?>
+				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+					<img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id()); ?>" class="img-responsive center-block header-post-image" />
+					<h3><?php the_title(); ?></h3>
+					<?php the_content() ?>
+			<?php endwhile; ?>
 		</div>
 	</div>
-</section>
-<!-- End Content
-================================================== -->
-
-
-<?php
-	get_footer();
-?>
+	   
+</body>
